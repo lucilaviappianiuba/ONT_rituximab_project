@@ -4,7 +4,7 @@ Bioinformatic pipeline for ONT long-read transcriptome analysis of therapeutic t
 The workflow includes:
 - Quality control and filtering of ONT reads
 - Alignment to the human genome and transcriptome (GRCh38)
-- Transcript-level quantification and tool concordance analysis
+- Transcript-level quantification 
 - Molecular subtype classification of pediatric B-cell ALL
 - Isoform discovery
 - Structural characterization of novel isoforms
