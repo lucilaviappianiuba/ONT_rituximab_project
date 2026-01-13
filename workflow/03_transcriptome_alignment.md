@@ -9,18 +9,29 @@ Transcriptome alignment was performed using **minimap2**
 cDNA reads.
 
 Example command used:
+
 ```bash
 minimap2 -ax map-ont Homo_sapiens.GRCh38.cdna.all.fa merged_filtered.fastq > alignment.sam
 ```
+
 SAM files were converted to BAM format using samtools for downstream analyses:
 ```bash
 samtools view -Sb alignment.sam > alignment.bam
 ```
+
 Basic alignment statistics were obtained using samtools:
 ```bash
 samtools flagstat alignment.bam
 ```
+
 ### Generation of PAF files
 
 In addition to BAM files, alignments in PAF (Pairwise Alignment Format) were
 generated for tools requiring this format in subsequent quantification steps.
+
+Example command used:
+```bash
+minimap2 -ax map-ont Homo_sapiens.GRCh38.cdna.all.fa merged_filtered.fastq > alignment.paf
+```
+
+
