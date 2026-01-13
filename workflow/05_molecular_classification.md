@@ -31,3 +31,23 @@ allcatch(
   ID_class = "ensembl_ID",
   sep = ","
 )
+```
+
+## Classification using nanopore-wts-classification
+
+For ONT-specific classification, the nanopore-wts-classification pipeline
+(https://github.com/jwanglab/nanopore-wts-classification
+) was applied.
+
+This approach uses a pre-trained machine learning model to classify leukemia
+subtypes directly from transcript-level expression profiles generated from ONT
+long-read data.
+
+As input, transcript counts generated using Minnow and the corresponding
+Ensembl metadata file were provided.
+
+Example command used:
+
+```bash
+python src/classify.py model.pkl nanopore_transcripts.cts ensembl_metadata.tsv > classification_results
+```
