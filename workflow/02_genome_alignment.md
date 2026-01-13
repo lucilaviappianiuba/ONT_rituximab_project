@@ -13,20 +13,19 @@ cDNA-derived reads.
 Example command used:
 ```bash
 minimap2 -ax splice GRCh38.dna_sm.primary_assembly.fa merged_filtered.fastq > alignment.sam
-
 ```
+
 SAM files were converted to BAM format, sorted and indexed using samtools
-(https://github.com/samtools/samtools).
+(https://github.com/samtools/samtools
+).
 
 Example commands used:
-
 ```bash
 samtools view -Sb alignment.sam > alignment.bam
 samtools sort alignment.bam -o alignment.sorted.bam
 samtools index alignment.sorted.bam
 ```
 Basic alignment statistics were obtained using samtools:
-
 ```bash
 samtools flagstat alignment.sam
 ```
