@@ -1,7 +1,7 @@
 # 02 – Alignment to the reference genome
 
 ONT reads (whole-transcriptome and amplicon sequencing) were aligned to the human
-reference genome (Homo sapiens, GRCh38.dna_sm.primary_assembly.fa).
+reference genome (Homo sapiens, GRCh38.dna_sm.primary_assembly.fa https://www.ensembl.org/Homo_sapiens/Info/Index).
 
 Genome alignment was performed using **minimap2**
 (https://github.com/lh3/minimap2), a versatile aligner for long-read and spliced
