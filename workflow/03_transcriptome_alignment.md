@@ -2,7 +2,7 @@
 
 Filtered ONT reads were aligned to the human reference transcriptome
 (Homo sapiens, GRCh38), using the Ensembl cDNA reference file
-(Homo_sapiens.GRCh38.cdna.all.fa) and its corresponding annotation.
+(Homo_sapiens.GRCh38.cdna.all.fa) and its corresponding annotation (https://www.ensembl.org/Homo_sapiens/Info/Index).
 
 Transcriptome alignment was performed using **minimap2**
 (https://github.com/lh3/minimap2) with parameters optimized for Oxford Nanopore
