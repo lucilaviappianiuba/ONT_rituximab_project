@@ -20,3 +20,17 @@ isoform correction and collapsing.
 Example command used for BAM to BED12 conversion:
 ```bash
 bam2Bed12 genome_alignment.sorted.bam > genome_alignment.bed
+```
+
+Isoform correction
+
+The FLAIR correct module was applied to refine splice junctions using the
+reference annotation and genome sequence.
+
+Example command used:
+```bash
+flair correct -q genome_alignment.bed \
+  --gtf Homo_sapiens.GRCh38.113.gtf \
+  -g Homo_sapiens.GRCh38.dna_sm.primary_assembly.fa \
+  --ss_window 30
+```
