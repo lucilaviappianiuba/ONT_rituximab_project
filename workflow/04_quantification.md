@@ -41,3 +41,17 @@ oarfish --seq-tech ont-cdna \
   --model-coverage \
   --filter-group no-filters
 ```
+Oarfish outputs abundance estimates in the same format as Salmon, facilitating
+direct comparison between tools.
+
+## Quantification of ONT data using Minnow
+
+Minnow (https://github.com/jwanglab/minnow) was used to quantify ONT reads using
+PAF alignments generated during transcriptome mapping.
+
+Example command used:
+```bash
+minnow -r Homo_sapiens.GRCh38.cdna.all.fa \
+  -p alignment.paf \
+  -t <N_THREADS> > minnow.cts
+```
