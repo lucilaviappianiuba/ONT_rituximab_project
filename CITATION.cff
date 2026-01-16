@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "ONT_rituximab_project"
+message: "If you use this repository, please cite it as below."
+type: software
+authors:
+  - family-names: Viappiani
+    given-names: Lucila
+    email: lucilaviappianiuba@gmail.com
+year: 2025
+repository-code: "https://github.com/lucilaviappianiuba/ONT_rituximab_project"
