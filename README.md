@@ -8,3 +8,15 @@ The workflow includes:
 - Molecular subtype classification of pediatric B-cell ALL
 - Isoform discovery
 - Structural characterization of novel isoforms
+
+## **If you use this repository in your research, please cite it as:**
+
+Viappiani L.¹ ², Ruiz M.S.¹ ² (2025). ONT_rituximab_project.
+
+Available at: https://github.com/lucilaviappianiuba/ONT_rituximab_project
+
+Contact: lucilaviappianiuba@gmail.com
+
+**Affiliations**
+1. CONICET - Universidad de Buenos Aires, Instituto de Química Biológica de la Facultad de Ciencias Exactas y Naturales (IQUIBICEN), Buenos Aires, Argentina
+2. Universidad de Buenos Aires, Facultad de Ciencias Exactas y Naturales, Departamento de Química Biológica, Laboratorio de Inflamación y Cáncer, Buenos Aires, Argentina
