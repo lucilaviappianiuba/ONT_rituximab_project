@@ -1,10 +1,14 @@
 cff-version: 1.2.0
-title: "ONT_rituximab_project"
+title: "Bioinformatic pipeline for ONT long-read transcriptome analysis of therapeutic targets in pediatric B-cell Acute Lymphoblastic Leukemia"
 message: "If you use this repository, please cite it as below."
 type: software
 authors:
   - family-names: Viappiani
     given-names: Lucila
     email: lucilaviappianiuba@gmail.com
+    affiliation: "CONICET - Universidad de Buenos Aires, Instituto de Química Biológica de la Facultad de Ciencias Exactas y Naturales (IQUIBICEN), Buenos Aires, Argentina; Universidad de Buenos Aires, Facultad de Ciencias Exactas y Naturales, Departamento de Química Biológica, Laboratorio de Inflamación y Cáncer, Buenos Aires, Argentina"
+  - family-names: Ruiz
+    given-names: María Sol
+    affiliation: "CONICET - Universidad de Buenos Aires, Instituto de Química Biológica de la Facultad de Ciencias Exactas y Naturales (IQUIBICEN), Buenos Aires, Argentina; Universidad de Buenos Aires, Facultad de Ciencias Exactas y Naturales, Departamento de Química Biológica, Laboratorio de Inflamación y Cáncer, Buenos Aires, Argentina"
 year: 2025
 repository-code: "https://github.com/lucilaviappianiuba/ONT_rituximab_project"
