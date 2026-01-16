@@ -1,5 +1,4 @@
-# ONT_rituximab_project
-Bioinformatic pipeline for ONT long-read transcriptome analysis of therapeutic targets in pediatric B-cell ALL.
+# Bioinformatic pipeline for ONT long-read transcriptome analysis of therapeutic targets in pediatric B-cell ALL.
 
 The workflow includes:
 - Quality control and filtering of ONT reads
@@ -11,7 +10,7 @@ The workflow includes:
 
 ## **If you use this repository in your research, please cite it as:**
 
-Viappiani L.¹ ², Ruiz M.S.¹ ² (2025). ONT_rituximab_project.
+Viappiani L.¹ ², Ruiz M.S.¹ ² (2025). Bioinformatic pipeline for ONT long-read transcriptome analysis of therapeutic targets in pediatric B-cell ALL.
 
 Available at: https://github.com/lucilaviappianiuba/ONT_rituximab_project
 
